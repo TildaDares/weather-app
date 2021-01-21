@@ -9,6 +9,23 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <div class="container d-flex justify-content-center align-items-center flex-column">
+    <fieldset class="d-flex flex-row mt-5">
+      <input class="form-control search-text" type="text" name="search-text" placeholder="Enter a city's name">
+      <button class="btn btn-primary ml-3 search-btn" type="button">Search</button>
+    </fieldset>
+    <div class="weather-card shadow text-white bg-sky-blue mx-2 mt-5 text-monospace p-3">
+      <p class="country mb-0">Nigeria, Lagos</p>
+      <p class="temp my-0">76c/45f</p>
+      <p class="mb-0 title">Feels like</p>
+      <p class="feels-like mt-0">60c</p>
+      <p class="mb-0 title">Humidity</p>
+      <p class="humidity mt-0">60c</p>
+      <p class="mb-0 title">Pressure</p>
+      <p class="pressure mt-0">60c</p>
+      <p class="weather-description">Weather Description: sunny</p>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>

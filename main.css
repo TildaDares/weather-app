@@ -1,0 +1,33 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-sky-blue {
+  background-color:#17a2b8;
+}
+
+.weather-card{
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+.country {
+  font-size: 1.8rem;
+}
+
+.temp {
+  font-size: 3rem;
+}
+
+.title, 
+.weather-description {
+  font-size: 1.2rem;
+}
+
+.feels-like, 
+.humidity, 
+.pressure {
+  font-size: 1.9rem;
+}
