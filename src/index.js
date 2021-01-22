@@ -26,7 +26,7 @@ async function getWeather(city) {
 		loading.style.display = "block";
 		weatherCard.style.display = "none";
 		const response = await fetch(
-			`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=acbf276018dff8bc22038492e6e32b85`,
+			`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=acbf276018dff8bc22038492e6e32b85`,
 			{ mode: "cors" }
 		);
 		const data = await response.json();
