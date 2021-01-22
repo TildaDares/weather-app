@@ -10,7 +10,9 @@ body {
 
 .weather-card{
   max-width: 400px;
-  border-radius: 15px;
+  min-width: 300px;
+  border-radius: 10px;
+  display: none;
 }
 
 .country {
@@ -30,4 +32,14 @@ body {
 .humidity, 
 .pressure {
   font-size: 1.9rem;
+}
+.btn-active {
+  background-color: #007bff;
+  color: white;
+}
+
+@media(max-width: 300px) {
+  .weather-card {
+    min-width: 100%;
+  }
 }
